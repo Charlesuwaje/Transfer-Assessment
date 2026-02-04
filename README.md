@@ -18,7 +18,7 @@ Dockerized local database setup
 
 ````bash
 
-git clone https://github.com/yourusername/sycamore-assessment.git
+git clone https://github.com/Charlesuwaje/Transfer-Assessment.git
 cd sycamore-assessment
 
 cd your-project
