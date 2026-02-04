@@ -10,6 +10,7 @@ Daily interest calculation with high-precision math
 PostgreSQL with Sequelize ORM
 Redis (optional) for idempotency locking
 Dockerized local database setup
+Test using Jest
 ---
 
 ## 🚀 Getting Started
@@ -99,7 +100,9 @@ docker run --name sycamore-postgres \
 
   npx sequelize-cli migration:generate --name add-title-location-to-users
 
-    ``
+     14. Run Test using 
+         ``
+         npm test
 
     ## API Examples
 
@@ -110,6 +113,21 @@ docker run --name sycamore-postgres \
     ```
     Host: ""
   Content-Type: application/json
+
+  15. Docker command to run and stop and check health of server 
+       ```bash
+      . To start  your Docker contaner 
+    ```bash
+    docker compose up -d
+
+   .  Stop containers (if needed)
+     ```bash
+    docker compose down
+     ```bash
+     
+    . Check container status
+        ```bash
+        docker compose ps
 
   ````
   _ Request Body
