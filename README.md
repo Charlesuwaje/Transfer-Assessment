@@ -1,5 +1,5 @@
 # 🛠️ Sycamore Backend Assessment – Wallet & Interest API
-This project is a Node.js + TypeScript backend API built as part of the Sycamore Backend Engineer (Mid-Level) assessment.
+This project is a Node.js + TypeScript backend API built as part of the Sycamore Backend Engineer (Mid-Level) assessment And it follows MVC Approach.
 
 It demonstrates:
 
